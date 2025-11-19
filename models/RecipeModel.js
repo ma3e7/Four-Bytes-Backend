@@ -6,8 +6,8 @@ const RecipeSchema = new mongoose.Schema({
     image: { type: String },
     cookingTime: { type: Number },
     complexity: { type: Number },
-    
-  // List of ingredients (A option)
+
+
     ingredients: [
         { type: mongoose.Schema.Types.ObjectId, ref: "Ingredient" }
     ],
