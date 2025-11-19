@@ -1,8 +1,8 @@
-const Review = require("../models/ReviewModel");
+const ReviewModel = require("../models/ReviewModel");
 
 exports.getReviewsByRecipe = async (req, res) => {
   try {
-    const reviews = await Review.find({ recipe: req.params.recipeId })
+    const reviews = await ReviewModel.find({ recipe: req.params.recipeId })
       .populate("user", "username");
     res.json(reviews);
   } catch (err) {
@@ -14,7 +14,7 @@ exports.createReview = async (req, res) => {
   try {
     const { rating, comment } = req.body;
 
-    const review = await Review.create({
+    const review = await ReviewModel.create({
       user: req.user.id,  
       recipe: req.params.recipeId,
       rating,
@@ -29,7 +29,7 @@ exports.createReview = async (req, res) => {
 
 exports.editReview = async (req, res) => {
   try {
-    const review = await Review.findOne({
+    const review = await ReviewModel.findOne({
       _id: req.params.reviewId,
       user: req.user.id
     });
@@ -51,7 +51,7 @@ exports.editReview = async (req, res) => {
 
 exports.deleteReview = async (req, res) => {
   try {
-    const review = await Review.findById(req.params.reviewId);
+    const review = await ReviewModel.findById(req.params.reviewId);
 
     if (!review) {
       return res.status(404).json({ error: "Review not found" });
