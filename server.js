@@ -6,6 +6,8 @@ const mongoose = require('mongoose');
 const logger = require('morgan');
 const cors = require('cors');
 const recipeRoutes = require('./routes/RecipeRoute.js');
+const authRouter = require('./controllers/AuthController');
+const testJwtRouter = require('./controllers/test-jwt');
 
 const PORT = 3000 || process.env.PORT
 
@@ -21,6 +23,8 @@ app.use(express.json());
 app.use(logger('dev'));
 
 app.use('/recipes', recipeRoutes);
+app.use('/auth', authRouter);
+app.use('/test-jwt', testJwtRouter);
 
 app.listen(PORT, () => {
     console.log(`The express app is ready on ${PORT}`);
