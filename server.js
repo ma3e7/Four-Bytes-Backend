@@ -8,6 +8,7 @@ const cors = require('cors');
 const recipeRoutes = require('./routes/RecipeRoute.js');
 const authRouter = require('./controllers/AuthController');
 const testJwtRouter = require('./controllers/test-jwt');
+const userController = require('./controllers/UserController.js')
 
 const PORT = 3000 || process.env.PORT
 
@@ -22,6 +23,8 @@ mongoose.connection.on('connected', () => {
 app.use(express.json());
 app.use(logger('dev'));
 
+
+app.use('/user', userController);
 app.use('/recipes', recipeRoutes);
 app.use('/auth', authRouter);
 app.use('/test-jwt', testJwtRouter);

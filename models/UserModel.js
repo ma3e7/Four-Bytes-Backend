@@ -1,5 +1,6 @@
 const mongoose = require('mongoose');
 
+
 const userSchema = new mongoose.Schema({
   username: {
     type: String,
@@ -12,7 +13,9 @@ const userSchema = new mongoose.Schema({
   role: {
     type: String,
     enum: ["admin", "user", "guest"],
-  }
+  },
+  
+
 });
 
 userSchema.set('toJSON', {

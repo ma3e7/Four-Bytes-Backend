@@ -12,7 +12,7 @@ router.get('/', verifyToken, async (req, res) => {
     res.json(users);
   } catch (err) {
     res.status(500).json({ err: err.message });
-  }
+  } 
 });
 
 router.get('/:userId', verifyToken, async (req, res) => {
