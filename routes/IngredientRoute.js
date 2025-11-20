@@ -1,7 +1,8 @@
-const express = require('express');
+import express from "express";
+import { getIngredientByName } from "../controllers/IngredientController.js";
+
 const router = express.Router();
-const controller = require('../controllers/IngredientController');
 
-router.get('/name', controller.getIngredientByName);
+router.get("/", getIngredientByName);
 
-module.exports = router;
+export default router;

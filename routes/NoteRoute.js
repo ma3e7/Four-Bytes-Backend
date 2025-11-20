@@ -1,11 +1,13 @@
-const express = require('express');
+import express from "express";
+import { protect } from "../middleware/authMiddleware.js";
+import { getNotesForRecipe, createNote, editNote, deleteNote } from "../controllers/NoteController.js";
+
 const router = express.Router();
-const noteController = require('../controllers/NoteController');
-const verifyToken = require('../middleware/verify-token'); 
+router.use(protect);
 
-router.get('/:recipeId', verifyToken, noteController.getNotesForRecipe);
-router.post('/:recipeId', verifyToken, noteController.createNote);
-router.put('/:recipeId/:noteId', verifyToken, noteController.editNote);
-router.delete('/:recipeId/:noteId', verifyToken, noteController.deleteNote);
+router.get("/:recipeId", getNotesForRecipe);
+router.post("/:recipeId", createNote);
+router.put("/:noteId", editNote);
+router.delete("/:noteId", deleteNote);
 
-module.exports = router;
+export default router;

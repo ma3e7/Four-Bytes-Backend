@@ -1,12 +1,31 @@
-const express = require('express');
+import express from "express";
+import {
+  getAllRecipes,
+  getRecipesByName,
+  getRecipesByIngredients,
+  getBookmarkedRecipes,
+  editRecipe,
+  deleteRecipe,
+  toggleBookmark,
+  addIngredientsToRecipe,
+  createRecipe
+} from "../controllers/RecipeController.js";
+
+import { protect } from "../middleware/authMiddleware.js";
+import { admin } from "../middleware/adminMiddleware.js";
+
 const router = express.Router();
-const controller = require('../controllers/recipeController');
 
-router.get('/all', controller.getAllRecipes);
-router.get('/by-name', controller.getRecipesByName);
-router.get('/by-ingredients', controller.getRecipesByIngredients);
-router.get('/bookmarked', controller.getBookmarkedRecipes);
-router.put('/edit/:recipe_id', controller.editRecipe);
-router.delete('/delete/:recipe_id', controller.deleteRecipe);
+router.get("/", getAllRecipes);
+router.get("/search", getRecipesByName);
+router.get("/by-ingredients", getRecipesByIngredients);
+router.get("/bookmarked", protect, getBookmarkedRecipes); 
 
-module.exports = router;
+router.post("/", protect, admin, createRecipe); 
+router.put("/:recipe_id", protect, admin, editRecipe); 
+router.delete("/:recipe_id", protect, admin, deleteRecipe); 
+
+router.put("/bookmark/:recipeId", protect, toggleBookmark);
+router.put("/add-ingredients/:recipeId", protect, addIngredientsToRecipe);
+
+export default router;
