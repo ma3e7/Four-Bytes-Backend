@@ -38,6 +38,4 @@ app.use("/note", noteRoutes);
 app.use("/reviews", reviewRoutes);
 app.use("/ingredients", ingredientRoutes);
 
-app.listen(PORT, () => {
-  console.log(`The Express app is running on port ${PORT}`);
-});
+export default app;
