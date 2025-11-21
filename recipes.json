@@ -1,0 +1,306 @@
+[
+    {
+        "name": "Kacamak",
+        "description": "Pour 1 liter of water into a pot and add a teaspoon of salt. When the water starts boiling, gradually add 300 g of corn flour while stirring constantly with a wooden spoon to avoid lumps. Reduce the heat and cook for about 20 minutes, stirring occasionally to prevent burning. When it thickens and becomes compact, let it cook for another 5 minutes on low heat. Optionally, mix in a tablespoon of butter or top with hot kajmak. Total preparation time: about 30 minutes.",
+        "image": "https://fagor.rs/wp-content/uploads/2021/09/kacamak-1.jpg",
+        "cookingTime": 30,
+        "complexity": 2,
+        "bookmarked": false
+    },
+    {
+        "name": "Pita zeljanica",
+        "description": "Prepare the filling first: chop 300 g of young greens or spinach, add a bit of salt, and let it rest for 10 minutes to soften. Whisk 2 eggs, then add 200 g of cheese and 150 ml of yogurt. Mix everything with the greens. In a greased baking tray, layer the phyllo sheets—brush each sheet lightly with oil and spread some of the filling. Repeat until all sheets are used. Bake in a preheated oven at 200°C for 35–40 minutes until golden brown. Remove from the oven, cover with a cloth, and let it soften for 10 minutes. Total preparation time: about 60 minutes.",
+        "image": "https://image.dnevnik.hr/media/images/1920x1080/Feb2024/62751324-pita-zeljanica.jpg",
+        "cookingTime": 60,
+        "complexity": 3,
+        "bookmarked": false
+    },
+    {
+        "name": "Ajvar",
+        "description": "Roast 3 kg of red peppers and 1 kg of eggplants in the oven or on a grill until the skins turn black (about 45 minutes). Cover the hot vegetables with a cloth and let them steam for 20 minutes, then peel and remove the seeds. Grind the peppers and eggplants or finely chop them. Heat 200 ml of oil in a large pot, add the mixture, and cook on low heat for 90 minutes, stirring occasionally. Near the end, add salt to taste and another 50 ml of oil. Cook until the mixture becomes thick. Total preparation time: about 3 hours.",
+        "image": "https://www.recipesfromeurope.com/wp-content/uploads/2023/03/ajvar-recipe-og.jpg",
+        "cookingTime": 180,
+        "complexity": 4,
+        "bookmarked": false
+    },
+    {
+        "name": "Slatko od dunja",
+        "description": "Clean 1 kg of quinces, peel them, remove the seeds, and slice thinly. In a pot, combine 1 kg of sugar and 300 ml of water, then cook until a thick syrup forms (about 15 minutes). Add the quinces and cook on low heat for another 45 minutes until translucent. Near the end, add the juice of half a lemon. Remove the foam during cooking. Allow it to cool for 10 minutes and then pour into jars. Total preparation time: about 70 minutes.",
+        "image": "https://sadnicedunje.rs/wp-content/uploads/2020/10/slatko-od-rendanih-dunja.jpg",
+        "cookingTime": 70,
+        "complexity": 3,
+        "bookmarked": false
+    },
+    {
+        "name": "Refried beans",
+        "description": "Place 300 g of beans in a pot, cover with water, and boil for 5 minutes. Discard that water, pour fresh warm water, and cook for 45 minutes. Add chopped onion, one carrot, pepper, and a bay leaf. Cook for another 30 minutes. In a pan, heat a tablespoon of oil, add chopped garlic and a tablespoon of flour, sauté briefly, then add paprika powder and stir the mixture into the beans. Cook for another 10 minutes until thickened. Total preparation time: about 90 minutes.",
+        "image": "https://fagor.rs/wp-content/uploads/2021/09/corbast-pasulj.jpg.webp",
+        "cookingTime": 90,
+        "complexity": 3,
+        "bookmarked": false
+    },
+    {
+        "name": "Soured milk",
+        "description": "Heat 1 liter of fresh milk until it comes to a boil, then let it cool to about 40°C (lukewarm). Mix in 2 tablespoons of live yogurt or sour milk as a starter, stir gently, and pour into a glass container. Wrap it in a cloth and let it ferment in a warm place for 6–8 hours. Then refrigerate for at least 2 hours to set. Total preparation time: about 8 hours (active time around 10 minutes).",
+        "image": "https://image.dnevnik.hr/media/images/1920x1080/Mar2025/63043194-kiselo-mlijeko.jpg",
+        "cookingTime": 480,
+        "complexity": 2,
+        "bookmarked": false
+    },
+    {
+        "name": "Peas",
+        "description": "Sauté chopped onion in oil for 5 minutes. Add 300 g of peas, one chopped carrot, and a teaspoon of salt. Add enough water to cover the ingredients and cook for 20 minutes. Make a light roux from a tablespoon of oil and a tablespoon of flour, add a teaspoon of paprika powder, and stir it into the peas. Cook for another 10 minutes until the sauce thickens. Total preparation time: about 40 minutes.",
+        "image": "https://i.ytimg.com/vi/B3x_JBkAdP8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAEuZ-bMlmIg3QH5y-ZmVx3Z3shoQ",
+        "cookingTime": 40,
+        "complexity": 2,
+        "bookmarked": false
+    },
+    {
+        "name": "Goulash",
+        "description": "Sauté 1 chopped onion in a tablespoon of oil for 5–7 minutes. Add 500 g of diced beef and cook until it changes color. Add 2 teaspoons of paprika, salt, pepper, and a tablespoon of flour. Add enough water to cover the meat and cook for 60 minutes covered. Add one chopped carrot and cook for another 20 minutes, until the meat is tender and the sauce thick. Total preparation time: about 90 minutes.",
+        "image": "https://assets.tmecosys.cn/image/upload/t_web_rdp_recipe_584x480/img/recipe/ras/Assets/FDC6DE51-CC06-4B64-93B1-6C39303E2D62/Derivates/77043FA7-0C85-4653-A9CF-E46257BD524B.jpg",
+        "cookingTime": 90,
+        "complexity": 4,
+        "bookmarked": false
+    },
+    {
+        "name": "Crepes",
+        "description": "Whisk 2 eggs, then add 200 ml of milk, 100 ml of water, a pinch of salt, and 150 g of flour. Mix until smooth. Let the batter rest for 10 minutes. Heat a small amount of oil in a pan and cook each pancake for about 1 minute per side. Fill as desired (chocolate spread, jam, sugar). Total preparation time: about 20 minutes",
+        "image": "https://foodandmood.blog/app/uploads/2024/06/croatian-crepes-palacinke-3.webp",
+        "cookingTime": 20,
+        "complexity": 1,
+        "bookmarked": false
+    },
+    {
+        "name": "Popeci",
+        "description": "Whisk 2 eggs, then add 200 g of grated zucchini or potato, 2 tablespoons of flour, salt, pepper, and a bit of garlic. Heat oil in a pan and drop spoonfuls of the mixture into small patties. Fry for 3–4 minutes on each side until golden. Place on paper towels to remove excess oil. Total preparation time: about 25 minutes.",
+        "image": "https://images.myguide-cdn.com/md/md/common/large/5eff2fbd967de-702093.jpg",
+        "cookingTime": 25,
+        "complexity": 2,
+        "bookmarked": false
+    },
+    {
+        "name": "Vanilice",
+        "description": "Beat 150 g of butter with 100 g of sugar. Add one egg, 300 g of flour, and a packet of vanilla sugar. Knead the dough and let it rest for 30 minutes. Roll the dough out to 5 mm thickness and cut small circles. Bake at 180°C for 10–12 minutes. After they cool, sandwich them with jam and coat them in powdered sugar. Total preparation time: about 60 minutes.",
+        "image": "https://www.imlek.rs/wp-content/uploads/2023/11/vanilice-2.jpg",
+        "cookingTime": 60,
+        "complexity": 3,
+        "bookmarked": false
+    },
+    {
+        "name": "Meatballs",
+        "description": "Mix 400 g of ground meat with one egg, a tablespoon of breadcrumbs, chopped garlic, salt, and pepper. Form small meatballs and fry for 8–10 minutes. In a separate pot, sauté a tablespoon of flour and a teaspoon of paprika, add water to form a sauce, then add the meatballs and cook for another 20 minutes until thickened. Total preparation time: about 40 minutes.",
+        "image": "https://jokina-kuhinjica.com/_next/image?url=https%3A%2F%2Fres.cloudinary.com%2Fdkckbbooz%2Fimage%2Fupload%2Ff_auto%2Cq_auto%2Cw_960%2Fv1747564802%2Fcufte_u_pradajz_sosu_fb8c82ef12.jpg&w=3840&q=75",
+        "cookingTime": 40,
+        "complexity": 3,
+        "bookmarked": false
+    },
+    {
+        "name": "Sarma",
+        "description": "Ingredients – Filling:\n1 kg ground pork\n1 cup rice\n2 medium onions\n1 small carrot\n1 clove garlic\n150 g smoked bacon\n1 tbsp vegeta\nSalt and pepper to taste\n1/2 tsp hot paprika\n1 tsp sweet paprika;\nAdditional ingredients:\nA few pieces of smoked meat\n2 heads of sauerkraut (leaves)\nBay leaf;\nFor the roux:\nA little oil (or lard)\n1 tbsp flour\n1 tbsp sweet paprika;\n\nPreparation:\nSauté diced onion, then add finely chopped garlic and carrot and sauté a bit more.\nAdd finely chopped bacon and fry briefly.\nAdd washed rice, mix with the onion and bacon mixture, then remove from heat.\nAdd ground meat and spices. Mix well.\nRolling the sarma:\nBlanch the sauerkraut leaves briefly.\nCut off the thick stem parts.\nPlace a leaf in your hand, the stem side resting in your palm.\nPlace a scoop of filling on the leaf.\nRoll the cabbage leaf as shown.\nLine the bottom of the pot with cabbage leaves.\nArrange the rolled sarma inside, placing smoked meat between the layers.\nCover the sarma with cabbage leaves, add water and bay leaf.\nCover the pot and place in a preheated oven.\nBefore it boils, temperature can be higher. At 190°C, simmer for about 4 hours.\nWhen done, prepare the roux:\nHeat oil, add flour while stirring continuously. When flour becomes lightly golden, remove from heat and add paprika (paprika should not fry or it will become bitter).\nPour the roux over the sarma. Return briefly to the oven to simmer.",
+        "image": "https://images.squarespace-cdn.com/content/v1/5c8ddbbaf8135a2c5fbb78db/1560134219814-D2BRUTLOASPG54906SD5/Sarma.jpg?format=2500w",
+        "cookingTime": 90,
+        "complexity": 4,
+        "bookmarked": false
+    },
+    {
+        "name": "Green Bean Stew",
+        "description": "Ingredients:\n500 g beef\n700 g green beans\n1–2 onions\n2 cloves garlic\n2 potatoes\n1 carrot, 1 tomato\nA bit of celery and parsley\nSeasonings: vegeta, salt, pepper, paprika;\n\nPreparation:\nAdd a little oil to a pot and sauté chopped onion. Add chopped beef, season, and sauté briefly.\nAdd chopped potatoes.\nAdd green beans (fresh or frozen). Add water and let it simmer.",
+        "image": "https://piovariations.cdn.podravka.net/0b45f802-6111-11eb-8b06-0242ac120013/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1024x768-f2b21802-64bc-11eb-a115-0242ac130010.webp",
+        "cookingTime": 60,
+        "complexity": 3,
+        "bookmarked": false
+    },
+    {
+        "name": "Homemade Chicken Soup",
+        "description": "Ingredients for 8 people:\n1 medium onion\n100 g leek\n2 L water\n3 large carrots\n150 g celery root\n2 chicken drumsticks\n2 chicken wings\n1 cup homemade noodles\n1 vegetable stock cube\nVegeta, pepper\n1 tbsp chopped parsley or celery leaves;\n\nPreparation:\nChop onion and leek, sauté briefly in a pot.\nAdd water, drumsticks, wings, chopped carrots, and celery. Cook on medium heat for about 20 minutes.\nAdd stock cube, noodles, pepper, and vegeta. Add parsley or celery leaves. Cook another 15 minutes.\nRemove drumsticks and wings, debone, shred the meat, and return to the soup.",
+        "image": "https://sofra-recepti.com/wp-content/uploads/2025/02/pileca-supa-recept-1732779675.jpg",
+        "cookingTime": 90,
+        "complexity": 2,
+        "bookmarked": false
+    },
+    {
+        "name": "Potato Soup",
+        "description": "Ingredients (4 servings):\n~1 kg potatoes\n1–2 carrots\nHalf a can of tomato sauce\nA bit of vegeta, salt, pepper, paprika\nA few drops of oil;\n\nPreparation:\nPeel and dice potatoes. Add to heated oil and sauté briefly. Add sliced carrots.\nIn a separate pot, keep water boiling.\nGradually add boiling water to the potato mixture, little by little.\nCook covered at highest heat so potatoes soften and slightly break down, thickening the soup naturally, without a roux.\nCook about 45 minutes, then add seasonings and tomato sauce.",
+        "image": "https://piovariations.cdn.podravka.net/e4697560-63e5-11eb-8446-0242ac120058/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1024x768-f2b21802-64bc-11eb-a115-0242ac130010.webp",
+        "cookingTime": 60,
+        "complexity": 3,
+        "bookmarked": false
+    },
+    {
+        "name": "Roasted Red Pepper Salad",
+        "description": "Ingredients (amounts optional):\nRed meaty peppers\nSalt\nPepper\nGarlic\nParsley\nOlive oil\nOptional: balsamic or wine vinegar;\n\nPreparation:\nRoast peppers. Place in a bowl and cover until they cool.\nPeel them and remove seeds.\nPlace peppers on a plate, season with salt, pepper, garlic, parsley, olive oil, and the juice they released.\nChill well before serving. Serve vinegar on the side. You may add crumbled feta cheese.",
+        "image": "https://piovariations.cdn.podravka.net/6c30c05a-5b0c-11ee-bb19-4aa68279e834/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1024x768-f2b21802-64bc-11eb-a115-0242ac130010.webp",
+        "cookingTime": 90,
+        "complexity": 3,
+        "bookmarked": false
+    },
+    {
+        "name": "Rastan (Collard Greens with Meat)",
+        "description": "Ingredients (4 servings):\n500 g collard greens\n500 g smoked sausages, ribs, bacon (mixed)\n3 potatoes\n2 large onions\n2 carrots\n4–5 garlic cloves\nOptional roux:\n1 tbsp lard\n1 tbsp flour\n1 tsp paprika;\n\nPreparation:\nWash collard greens, remove hard stems, and cook in salted water.\nCut smoked meat and boil separately briefly.\nWhen collards are half-cooked, drain, cool, chop finely, and add to the meat.\nAdd chopped onion, carrot, and potatoes.\nCook in a pressure cooker for a bit over an hour.\nIf you prefer thicker consistency, make a roux and stir into the stew.",
+        "image": "https://images.rove.me/w_1920,q_85/p6cfnhjtqfj2xraboyei/montenegro-rastan.jpg",
+        "cookingTime": 120,
+        "complexity": "3",
+        "bookmarked": false
+    },
+    {
+        "name": "Potato Salad",
+        "description": "Ingredients (4 servings):\n5–6 large potatoes\n1 large onion\n1 lemon\n2 tbsp vinegar\n4 tbsp oil\nSalt and pepper\nDill or parsley;\n\nPreparation:\nTwo options: cook potatoes whole, cool, peel and slice — or peel and slice raw, then cook (faster but softer).\nSlice onion thinly and mix with salt, pepper, lemon juice, vinegar, and oil.\nAdd cooked potatoes and mix gently. Adjust seasoning as needed.",
+        "image": "https://piovariations.cdn.podravka.net/1c8a4e50-63dd-11eb-a21a-0242ac12003d/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1024x768-f2b21802-64bc-11eb-a115-0242ac130010.webp",
+        "cookingTime": 30,
+        "complexity": 2,
+        "bookmarked": false
+    },
+    {
+        "name": "Urnebes Salad",
+        "description": "Ingredients:\n150 g roasted red peppers\n4 hard-boiled eggs\n350 g feta cheese\n150 g aged salty kajmak\n2 tsp oil\n3–4 garlic cloves\n1.5–3 tsp sweet paprika\n1.5–3 tsp hot paprika\nA bit of salt;\n\nPreparation:\nFinely chop roasted peppers. Mash eggs with a fork. Mix peppers, eggs, feta, kajmak, and oil, then blend.\nAdd garlic, salt, sweet and hot paprika to taste, and blend again.\nServe with grill dishes, as a spread, or in pastry cups.",
+        "image": "https://domacirecepti.rs/wp-content/uploads/2025/07/urnebes-salata-recept.png",
+        "cookingTime": 20,
+        "complexity": 2,
+        "bookmarked": false
+    },
+    {
+        "name": "Cicvara",
+        "description": "Ingredients:\n* 400 ml water\n* 100 g butter\n* a little salt to taste\n* 100 g kajmak (clotted cream)\n* 2 eggs\n* 150 g corn flour\n\nPreparation:\nMix kajmak and eggs well. In boiling water, add butter to melt, salt, and while it boils gradually add the corn flour, stirring constantly. Cook on low heat. Gradually add the kajmak–egg mixture while stirring continuously. Cicvara is ready when the fat starts to separate from the pot, meaning it releases its oil. Check the salt level, and you can sprinkle paprika over the served cicvara.\nServe with cheese, kajmak, pickled vegetables…",
+        "image": "https://piovariations.cdn.podravka.net/d32ec55a-6383-11eb-891f-0242ac12004b/v/5a667e06-64be-11eb-aef3-0242ac130010/1600x3200-5a668d88-64be-11eb-ac4d-0242ac130010.webp",
+        "cookingTime": 20,
+        "complexity": 2,
+        "bookmarked": false
+    },
+    {
+        "name": "Rice Pudding (Sutlijas)",
+        "description": "Ingredients:\n- 1 cup (about 200 ml) white rice (preferably round-grain)\n- 1 l milk\n- 3 tablespoons sugar (to taste)\n- 1 packet vanilla sugar or a little vanilla extract\n- a pinch of salt\n- cinnamon or grated lemon zest\n\nPreparation:\nRinse the rice well in cold water. In a pot, boil the rice with 2 cups of water and a pinch of salt. Cook 10–15 minutes until the water almost evaporates and the rice softens. Add milk, sugar and vanilla. Cook on low heat another 20–30 minutes, stirring occasionally. The rice pudding should be creamy but not too thick (it will thicken as it cools).\nPour into bowls and sprinkle with cinnamon or lemon zest.\n\nTips for perfect rice pudding:\n1. Use milk at room temperature, not cold from the fridge.\n2. Do not overcook the rice in water, it will continue cooking in milk.\n3. For extra creaminess, mix a bit of cooking cream with the milk.\n4. Rice pudding thickens as it sits – don't cook it too long if you prefer it softer.\nWhether for breakfast, a snack, or comfort dessert – rice pudding is always a good idea!",
+        "image": "https://ocdn.eu/pulscms-transforms/1/xmWk9kpTURBXy8xNzYyYjIwYTZhZjAwOWI1ZjJjODQ1ZjY0ZDAzMDMxMy5qcGeRkwLNAp4A3gABoTAF",
+        "cookingTime": 30,
+        "complexity": 2,
+        "bookmarked": false
+    },
+    {
+        "name": "Sataras",
+        "description": "Sataras for 6 people:\nIngredients:\n• 700 g onions\n• 500 g yellow peppers\n• 500 g red peppers\n• 5 garlic cloves\n• 1 kg fresh tomatoes or tomato sauce\n• 250 g zucchini\n• 250 g eggplant\n• 200 ml oil (half olive, half vegetable)\n• 1 tsp coarse sea salt\n• 1 tsp vegeta\n• 2–3 bay leaves\n• 1 tsp crushed black pepper\n\nPreparation:\nSataras is prepared in many variations. Traditionally, it contains only peppers, onions, garlic and tomatoes. A slightly expanded version includes zucchini and eggplant. Slice the onions into rings and cut the remaining vegetables into cubes. Sauté the onions in the oil mixture until translucent. Add peppers and sauté until half softened. Add pepper, chopped rosemary and bay leaves. If using zucchini and eggplant, add them and cook until they release liquid. Finally add crushed tomatoes and chopped garlic. Simmer briefly so flavors develop. Add pepper, vegeta and/or salt.\nTurn off the heat and let the dish rest for at least 1 hour. If you mix in rice, you get the dish called đuveč.\nTip: The key is removing sataras from heat while the vegetables are still al dente. Overcooking results in mush. Salt minimally during cooking, as vegetables release water.",
+        "image": "https://sweetthought.ca/wp-content/uploads/2019/12/IMGP7511-2.jpg",
+        "cookingTime": 80,
+        "complexity": 4,
+        "bookmarked": false
+    },
+    {
+        "name": "Djuvec",
+        "description": "For 4 people.\nIngredients:\n• 500 g onions\n• 500 g zucchini\n• 500 g eggplant\n• 500 g yellow peppers\n• 5 garlic cloves\n• 200 ml olive oil\n• 500 g crushed tomatoes\n• 2 tbsp tomato paste\n• 2 tbsp balsamic vinegar\n• 200 g rice\n• 5–6 bay leaves\n• 2 tbsp vegeta\n• 1/2 tsp each dried oregano, thyme, rosemary, marjoram\n\nPreparation:\nSauté onions in olive oil until translucent. Add peppers and cook until al dente. Add bay leaves, crushed tomatoes, tomato paste and garlic. You are essentially making sataras; stop cooking while vegetables are still slightly firm.\nOptionally add zucchini and eggplant. If omitting them, increase the amount of peppers and tomatoes.\nIf the mixture is too acidic, add a little balsamic vinegar. Cook rice until 3/4 done, drain, then combine with vegetables. Add water or preferably broth and leave on the turned-off stove for 30 minutes until rice softens. Stir occasionally.\nIf preparing ahead, add rice just before serving. Djuvec is served warm and goes very well with grilled dishes.",
+        "image": "http://moja-kuhinja.com/bilder/djuvedj/djuvec.jpg",
+        "cookingTime": 120,
+        "complexity": 4,
+        "bookmarked": false
+    },
+    {
+        "name": "Pogaca",
+        "description": "Ingredients:\n* 500 g flour\n* 20 g yeast\n* 300 ml milk (add more if needed)\n* 1 tsp salt\n* 1 tsp sugar\n* 5 tbsp oil\n* 150 g margarine (for brushing dough)\n* 1 egg yolk (for brushing)\n* sesame seeds\n\nPreparation:\nPut flour in a bowl, make a well, add yeast, sugar and a little warm milk and let rise. Add salt, oil and remaining milk, then knead until smooth. Let it rise in a warm place.\nKnead again, divide into 5 balls and let rest 10 minutes. Roll each into a circle; brush four with softened margarine and stack them, placing the unbuttered one on top.\nRoll into a large circle (≈45 cm). Cut a 2–3 cm ring from the edge. Cut the remaining circle into 16 triangles. Roll each straight along its side (not like a croissant) and place around a greased 26 cm pan. Cut the ring into 4 pieces, shape roses and place in the center.\nLet rise, brush with yolk, sprinkle sesame, bake at 200°C, then lower to 180°C until golden (about 45 min).",
+        "image": "https://static.wixstatic.com/media/999f0c_a26fdc2eef6a4885aa44a381fb4c26aa~mv2.jpg/v1/fill/w_766,h_497,al_c,lg_1,q_85,enc_avif,quality_auto/999f0c_a26fdc2eef6a4885aa44a381fb4c26aa~mv2.jpg",
+        "cookingTime": 60,
+        "complexity": 4,
+        "bookmarked": false
+    },
+    {
+        "name": "Mantije",
+        "description": "Ingredients:\n* 800 g flour (Type 500)\n* 520 ml warm water\n* 2 tbsp salt\n* 1 kg ground meat\n* 60 ml oil\n* 2 onions\n* 3/4 tsp pepper\n* For brushing: 150 g butter, 50 ml oil\n* For topping: 250 ml yogurt, 3 garlic cloves, 1/2 tsp salt\n\nPreparation:\nAdd flour and 1 tbsp salt to a bowl. Gradually add 450 ml warm water and knead. Let rest 30 min. Dust with flour, transfer to the counter, divide into 3 balls and let rest 15–20 min.\nChop onions, add salt, pepper, oil and mix with ground meat. Add 70 ml water.\nRoll each dough ball very thin, brush with melted butter and oil. Cut in half lengthwise, add filling along the outer edge, roll and cut into 3–4 cm pieces. Shape with hands to close edges. Arrange in a greased pan, brush, and bake at 250°C for 30–40 min.\nMix yogurt, salt, garlic and pour over baked mantije.",
+        "image": "https://static2stvarukusa.mondo.rs/api/v3/images/960/1920/60311?ts=2023-10-04T16:01:55",
+        "cookingTime": 60,
+        "complexity": 4,
+        "bookmarked": false
+    },
+    {
+        "name": "Knedle",
+        "description": "Ingredients:\n• 500 g cooked potatoes\n• 1 egg\n• 1 egg yolk\n• 1 tbsp butter\n• pinch nutmeg\n• 350 g flour (+100 g if needed)\n• salt\n• 10 plums\n• 10 chocolate cubes\n\nFor breadcrumbs:\n• 2 packets vanilla sugar\n• 100 g breadcrumbs\n• 100 g ground hazelnut\n• 100 g butter\n\nPreparation:\nCook potatoes in their skin, peel and mash while warm. Add nutmeg, salt, butter, egg, yolk and flour and knead (add more flour if too soft). Roll out the dough and cut into squares. Place a pitted plum with a chocolate cube inside each and shape into dumplings. Cook in boiling water until they float.\nIn a pan, toast breadcrumbs, hazelnuts and vanilla sugar in butter. Coat cooked dumplings in the mixture and serve warm.",
+        "image": "https://lepibrka.com/public/userfiles/Knedle_sa_sljivama/KNEDLE_SA_SLJIVAMA_logo2.jpg",
+        "cookingTime": 60,
+        "complexity": 4,
+        "bookmarked": false
+    },
+    {
+        "name": "Podvarak",
+        "description": "Ingredients:\n1 medium head sauerkraut (≈1 kg)\n2 chicken drumsticks\n2 chicken thighs\n1 onion\n3 garlic cloves\n1 tbsp paprika\n100 ml oil (or 2 tbsp lard)\noptional: curry, seasoning salt, pepper\n200 ml water\n1 bay leaf\n\nPreparation:\nBrown chicken on all sides for 5 min with spices. Remove chicken. Finely chop the cabbage (rinse if too sour). In the same pot, add 50 ml oil, chopped onion and garlic, sauté, add paprika and cabbage. Mix well, return chicken, add bay leaf and water. Add seasoning lightly. Simmer on low heat for 60 min, adding water if needed.\nTransfer to a baking dish with chicken on top, bake until golden.",
+        "image": "https://piovariations.cdn.podravka.net/f671e062-6421-11eb-9830-0242ac120057/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1600x1200-f2b21938-64bc-11eb-9498-0242ac130010.webp",
+        "cookingTime": 60,
+        "complexity": 3,
+        "bookmarked": false
+    },
+    {
+        "name": "Fish Soup",
+        "description": "Ingredients:\n3 kg cleaned carp\n3 onions\n2 tbsp sweet paprika\n1/2 tbsp hot paprika\n2 packets fish soup seasoning\n1 tbsp vinegar\n1 fresh bell pepper\n1 tomato\n1 tbsp salt\n\nPreparation:\nPlace 3.5 l cold water and carp pieces into a large pot. Add vinegar and bring to a boil. When the foam disappears, add chopped onions, sweet and hot paprika, whole pepper, tomato and salt. Cook on high heat for 20 minutes. Add the prepared fish soup seasoning and cook another 20 minutes. For richer flavor combine at least three types of freshwater fish (carp, silver carp, pike-perch).",
+        "image": "https://trpeza.alo.rs/data/images/2023-01-10/43784_riblja-corba-1687484914_f.jpg",
+        "cookingTime": 40,
+        "complexity": 3,
+        "bookmarked": false
+    },
+    {
+        "name": "Proja",
+        "description": "Mix all ingredients and whisk until you get a smooth, thin batter. Pour into a lightly oiled round baking pan, or better yet, line the pan with baking paper and pour directly onto it. Regular proja bakes for a total of 30 minutes. 20 minutes at 250°C, then 10 minutes at 150°C. This way, the crust will first bake and then the inside will bake evenly to be soft and tender. After 30 minutes, poke the batter with a toothpick. If it comes out dry, the proja is perfectly baked!",
+        "image": "https://i.ytimg.com/vi/yJyEcMhRYwo/maxresdefault.jpg",
+        "cookingTime": 40,
+        "complexity": 1,
+        "bookmarked": false
+    },
+    {
+        "name": "Zetske Priganice",
+        "description": "Mix flour with sugar and salt, then gradually add milk and water to get a thick lump-free batter. Add eggs and whisk. A little rakija can be added so the priganice absorb less oil. The dough should be thicker than for pancakes but pourable with a spoon, i.e., it should be liquid. Drop by spoonfuls into heated oil and fry until golden brown.",
+        "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEinV1wHftCkWsOX1Pppdq8zTcw5-ajAawO6CTZu_1IhQKYQuOuc494DTPloBZcjFkJAkKCGfowdVl54A4ZelGmKvAeovXzQqBOBs1DV7YZfmDufMAicJZqiLC5hZRTqsAvIQfWOQipuigHH/s1600/DSCN6143.JPG",
+        "cookingTime": 25,
+        "complexity": 2,
+        "bookmarked": false
+    },
+    {
+        "name": "Sirnica",
+        "description": "Make dough from flour, salt, and water, divide into 2 parts, shape into balls, and let rest covered for about 20 minutes. Roll out the dough, brush with oil, and let rest for about 10 minutes. Combine cheese and eggs, and salt to taste. Then stretch the dough as thin as possible, carefully pulling from the center towards the edges. Place the cheese filling on the edge of the stretched dough and roll it up. Repeat once more. Shape the sirnica (I made 4 pieces from one 'ball' of dough) and arrange in an oiled baking pan. Prepare the second 'ball' of dough in the same way. Put the pie in an oven preheated to 200°C and bake for about 40 minutes. Brush the baked pie with a piece of butter and sour cream (optional), then return to the oven for another minute or two!",
+        "image": "https://bosanskikuhar.ba/wp-content/uploads/2025/03/Sirnica.png",
+        "cookingTime": 80,
+        "complexity": 3,
+        "bookmarked": false
+    },
+    {
+        "name": "Lepinje",
+        "description": "Place 400g of flour in a large bowl and make a well in the center. In the well, put 7g of dry yeast, 1 heaping teaspoon of salt, and 1 teaspoon of sugar, and then pour the oil and water over everything. If using fresh yeast, crumble it into the water first. Mix the ingredients well with a whisk to get a sticky dough. Let it rise for 30 minutes in a warm, draft-free place. If the dough hasn't risen by then, leave it for another ten minutes. Preheat the oven to 250°C. Sprinkle the work surface generously with flour and turn the dough out onto it. Since the dough is sticky, work quickly and try to have as little contact with it as possible. Sprinkle the dough with flour, flip it a few times, and shape it into a loaf. Divide the loaf in half, then divide each half again to get 4 roughly equal parts. Shape each piece of dough into a ball, then place them on a baking sheet lined with baking paper. Cover them with a kitchen cloth and let rise for 10 minutes. Press each ball of dough with your fingers to form a circle. Don't do this too roughly so you don't squeeze out the air. Lightly dust them with flour, then use a plastic or wooden spatula to press a grid pattern into them. Cover the lepinje with a kitchen cloth and let them rise for 10 minutes. Uncover and place in the center of the preheated oven. Bake the lepinje for 8 to 10 minutes to get a nice crust, and for the last two minutes in the oven, turn on the grill function at the highest setting. Take them out of the oven, leave them on the hot baking sheet, and cover with a cloth.",
+        "image": "https://www.argeta.com/_next/image?url=https%3A%2F%2Fargeta-com.cnj.digital%2Fassets%2Frecipes%2Flepinje-4-e1653570305598.jpg&w=1920&q=75",
+        "cookingTime": 90,
+        "complexity": 1,
+        "bookmarked": false
+    },
+    {
+        "name": "Stuffed Peppers",
+        "description": "Wash the peppers, clean them of stems and seeds, and prick them in a few places on the sides. Dice the onion, put it in a pan with oil, sauté until softened, add the minced meat, finely chopped garlic, a tablespoon of tomato puree, salt, pepper, 1 teaspoon of paprika, and crushed pepper, add a little water to help separate the meat (so no lumps remain) and simmer for about 5 minutes. When the meat is done, add the rice and mix everything well. Fill the peppers with a coffee spoon (that's easiest for me). Close the peppers with pieces of tomato. In the pan/pot where we simmered the meat, pour about 30 ml of oil, 1 tablespoon of paprika, and one bouillon cube (crush it with your fingers). Place the pan/pot on the burner to heat up and melt the cube and paprika. Pour the contents of the pan over the peppers, then add 700 ml of water. Chop parsley over the top. Cover the peppers with foil. Bake in an oven preheated to 220°C for one hour. After one hour, remove the foil and bake for another 40-60 minutes, depending on the oven. When they get a beautiful crust like this, the peppers are ready.",
+        "image": "https://mybalkankitchen.com/wp-content/uploads/2024/08/IMG_0797.jpg",
+        "cookingTime": 130,
+        "complexity": 3,
+        "bookmarked": false
+    },
+    {
+        "name": "Moussaka",
+        "description": "Clean the onion, chop it finely, and sauté. Add the minced meat and spices and sauté for a while. Peel the potatoes, slice them, and wash them. Salt and oil the potatoes and mix lightly. Oil a baking dish. Arrange one layer of potatoes, fill all gaps with potatoes, then place the meat. Over the meat, arrange another layer of potatoes. If your baking dish is smaller, you can layer a row of potatoes, a row of meat, until everything is used up. Pour over 2 dl of warm water. Bake in a preheated oven at 220°C for about 40 min. Towards the end of baking, pour a mixture of eggs, milk, and sour cream over the moussaka, return to the oven, and bake until golden. Let the baked moussaka cool, as it cuts better that way.",
+        "image": "https://piovariations.cdn.podravka.net/90576bb0-6388-11eb-9328-0242ac120036/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1600x1200-f2b21938-64bc-11eb-9498-0242ac130010.jpeg",
+        "cookingTime": 70,
+        "complexity": 3,
+        "bookmarked": false
+    },
+    {
+        "name": "Karadjordjeva Steak",
+        "description": "Rinse the meat under cold water, dry with a cloth, and remove any fat. Cut the fillet lengthwise and form a large steak, then flatten it well with a mallet and salt it. On each steak, depending on its size, place up to 40g of old kajmak. This is the original recipe, and Karadjordjeva steak is stuffed only and exclusively with kajmak. We'll place the kajmak in the center of the steak and fold the ends over the kajmak, then roll it up. No toothpicks are needed because the meat will hold with double breading. It is very important that the steak is well sealed so the kajmak doesn't leak out during frying. For smaller steaks, we'll just roll them up without folding the ends. When all the steaks are rolled up, start heating the oil over medium-high heat. The size of the pot should be equivalent to the length of the rolled steak. The depth of the oil should be at least half the height of the steak. While the oil is heating, prepare the ingredients for breading. The amount of flour, eggs, and breadcrumbs will depend on the number and size of the steaks, and since the steaks are double-breaded, prepare more. It's no problem to start with 2 eggs, and then beat two more on the go if needed. First coat the steaks in flour, then in eggs, then in breadcrumbs, then again in eggs, then in breadcrumbs. How will we know the oil is hot enough? Dip a wooden stick or the end of a wooden spoon handle into the oil; if it sizzles and bubbles form around the wood, the oil is ready and the temperature is reached. Place the steaks to fry. Turn them so they brown evenly on all sides. Since the steaks have a substantial thickness, they should be fried a bit longer than when they are not rolled, but not too long, so that all the kajmak inside doesn't melt. When the steaks get a nice, golden color, take one out of the oil, cut it, and see how far the thermal processing has reached, and accordingly determine the frying time for the remaining steaks. Serve Karadjordjeva steaks while warm, with pre-prepared tartar sauce and a side of boiled vegetables.",
+        "image": "https://domacirecepti.rs/wp-content/uploads/2025/02/iStock-1350037007.jpg",
+        "cookingTime": 45,
+        "complexity": 4,
+        "bookmarked": false
+    },
+    {
+        "name": "Krofne (Doughnuts)",
+        "description": "Whisk warm milk, crumbled yeast, and sugar. Add the remaining ingredients (50 ml oil, 2 whole eggs, salt, flour, and lemon zest if using) and knead the dough. Cover with a cloth and let it rest in a warm place until it rises. Knead again and let it rise once more. On a floured work surface, roll out the dough to 1 cm thickness. Cut out doughnuts from the dough using a round cutter or a glass. Place the cut doughnuts on a floured work surface. Cover with a kitchen cloth and let stand for 20-30 minutes. The pot for frying the krofne should be wide and shallow (so the krofne are easier to turn). When frying, the krofne should float in the oil (they must not touch the bottom). The oil must not be too hot. Cover with a lid and fry until the krofne puff up well, then remove the lid, turn the krofne to the other side, and fry until done. Place the fried krofne on kitchen paper to absorb excess fat. You can fill the krofne with anything you like, dust with powdered sugar, or use various glazes as desired.",
+        "image": "https://piovariations.cdn.podravka.net/d7f897f8-6407-11eb-a0a6-0242ac120024/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1600x1200-f2b21938-64bc-11eb-9498-0242ac130010.jpeg",
+        "cookingTime": 120,
+        "complexity": 2,
+        "bookmarked": false
+    },
+    {
+        "name": "Japraci (Stuffed Cabbage Rolls)",
+        "description": "Clean the cabbage leaves finely, cut off the thickened root, then briefly dip them in boiling water, take them out to drain. In a large bowl, put the minced meat, washed rice, then add the chopped onion, parsley and garlic, and finely grated carrot. Then add tomato sauce and beaten eggs, finally add the spices, and mix everything well with your hands to combine the mixture. On each cabbage leaf at the base where the root was, place a little of the mixture, then fold over one end, and roll up the rolls, finally tucking the free end of the leaf into the japrak with your finger, so you get a fine, tight japrak that won't unravel during cooking. Put oil and a few slices of prosciutto at the bottom of a deep pot, then arrange a few plain cabbage leaves as a base. Arrange the prepared japraci on this base. If you have leftover mixture, you can clean peppers and stuff them and cook them together with the japraci. When all the japraci are rolled, place the remaining prosciutto on top, then pour over the whisked tomato sauce, ground paprika, and spices. Pour water over everything until it's two fingers above the japraci. Cover and cook over low heat. Add water if needed, but do not increase the cooking temperature, so the japraci don't unravel. Serve japrak with mashed potatoes, sour cream, and a sour salad.",
+        "image": "https://piovariations.cdn.podravka.net/1d75f700-610e-11eb-8596-0242ac120027/v/f2b1f6a6-64bc-11eb-b6c2-0242ac130010/1600x1200-f2b21938-64bc-11eb-9498-0242ac130010.jpeg",
+        "cookingTime": 120,
+        "complexity": 4,
+        "bookmarked": false
+    }
+]
