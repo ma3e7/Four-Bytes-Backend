@@ -13,9 +13,8 @@ import reviewRoutes from "./routes/ReviewRoute.js";
 import ingredientRoutes from "./routes/IngredientRoute.js";
 
 const app = express();
-const PORT = process.env.PORT || 3000;
 
-app.use(cors({ origin: "http://localhost:5173" }));
+app.use(cors());
 app.use(express.json());
 app.use(logger("dev"));
 
@@ -32,10 +31,10 @@ mongoose.connection.on("error", (err) => {
   console.error("MongoDB connection error:", err);
 });
 
-app.use("/auth", authRoutes);
-app.use("/recipes", recipeRoutes);
-app.use("/note", noteRoutes);
-app.use("/reviews", reviewRoutes);
-app.use("/ingredients", ingredientRoutes);
+app.use("/api/auth", authRoutes);
+app.use("/api/recipes", recipeRoutes);
+app.use("/api/note", noteRoutes);
+app.use("/api/reviews", reviewRoutes);
+app.use("/api/ingredients", ingredientRoutes);
 
-export default app;
+export default app; 

@@ -1,9 +1,6 @@
-// netlify/functions/api.js
-import serverless from "serverless-http"
-import app from "../../server"
+import serverless from "serverless-http";
+import app from "../../server.js";
 
-// Netlify invokes paths like: /.netlify/functions/api/api/users
-// basePath strips "/.netlify/functions" so Express sees "/api/users"
-module.exports.handler = serverless(app, {
-  basePath: '/.netlify/functions',
+export const handler = serverless(app, {
+  basePath: "/.netlify/functions",
 });
