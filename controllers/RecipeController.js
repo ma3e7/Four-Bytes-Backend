@@ -83,20 +83,29 @@ export const editRecipe = async (req, res) => {
 export const deleteRecipe = async (req, res) => {
     try {
         const { recipe_id } = req.params;
+
         const recipe = await Recipe.findById(recipe_id);
-        if (!recipe) return res.status(404).json({ message: "Recipe not found" });
+        if (!recipe) {
+            return res.status(404).json({ message: "Recipe not found" });
+        }
 
         await Promise.all([
             ...recipe.notes.map(id => Note.findByIdAndDelete(id)),
             ...recipe.reviews.map(id => Review.findByIdAndDelete(id))
         ]);
 
-        await recipe.remove();
-        res.json({ message: "Recipe and related notes/reviews deleted successfully" });
+        await Recipe.findByIdAndDelete(recipe_id);
+
+        return res.json({
+            message: "Recipe and related notes/reviews deleted successfully"
+        });
+
     } catch (error) {
-        res.status(500).json({ message: error.message });
+        console.error(error);
+        return res.status(500).json({ message: error.message });
     }
 };
+
 
 export const toggleBookmark = async (req, res) => {
     try {
