@@ -16,6 +16,21 @@ export const getAllRecipes = async (req, res) => {
     }
 };
 
+export const getRecipeById = async (req, res) => {
+    try {
+        const { recipe_id } = req.params;
+        const recipe = await Recipe.findById(recipe_id)
+            .populate("ingredients")
+            .populate({ path: "notes", populate: { path: "user", select: "username" } })
+            .populate({ path: "reviews", populate: { path: "user", select: "username" } });
+
+        if (!recipe) return res.status(404).json({ message: "Recipe not found" });
+
+        res.json(recipe);
+    } catch (err) {
+        res.status(500).json({ message: err.message });
+    }
+};
 
 export const getRecipesByName = async (req, res) => {
     try {
@@ -124,7 +139,7 @@ export const toggleBookmark = async (req, res) => {
 export const addIngredientsToRecipe = async (req, res) => {
     try {
         const { recipeId } = req.params;
-        const { ingredientIds } = req.body; 
+        const { ingredientIds } = req.body;
 
         const recipe = await Recipe.findById(recipeId);
         if (!recipe) return res.status(404).json({ message: "Recipe not found" });

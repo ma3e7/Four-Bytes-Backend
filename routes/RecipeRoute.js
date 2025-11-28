@@ -17,6 +17,7 @@ import { admin } from "../middleware/adminMiddleware.js";
 const router = express.Router();
 
 router.get("/", getAllRecipes);
+router.get("/:recipe_id", getRecipeById);
 router.get("/search", getRecipesByName);
 router.get("/by-ingredients", getRecipesByIngredients);
 router.get("/bookmarked", protect, getBookmarkedRecipes); 
