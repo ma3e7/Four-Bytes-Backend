@@ -15,6 +15,16 @@ export const getReviewsByRecipe = async (req, res) => {
 export const createReview = async (req, res) => {
   try {
     const { rating, comment } = req.body;
+
+    const existingReview = await Review.findOne({
+      user: req.user.id,
+      recipe: req.params.recipeId
+    });
+
+    if (existingReview) {
+      return res.status(400).json({ error: "You can only have one review per recipe. Edit your existing review." });
+    }
+
     const review = await Review.create({
       user: req.user.id,
       recipe: req.params.recipeId,
@@ -23,11 +33,13 @@ export const createReview = async (req, res) => {
     });
 
     await Recipe.findByIdAndUpdate(req.params.recipeId, { $push: { reviews: review._id } });
+
     res.status(201).json(review);
   } catch (err) {
     res.status(500).json({ error: "Server error" });
   }
 };
+
 
 
 export const editReview = async (req, res) => {
