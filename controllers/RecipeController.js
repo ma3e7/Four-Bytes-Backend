@@ -49,18 +49,35 @@ export const getRecipesByName = async (req, res) => {
 export const getRecipesByIngredients = async (req, res) => {
     try {
         const { ingredients } = req.query;
-        if (!ingredients) return res.status(400).json({ message: "Ingredients required" });
+        if (!ingredients) {
+            return res.status(400).json({ message: "Ingredients required" });
+        }
 
-        const ingredientList = ingredients.split(",");
-        const recipes = await Recipe.find({ ingredients: { $all: ingredientList } })
+        const ingredientNames = ingredients.split(",");
+        const foundIngredients = await Ingredient.find({
+            name: { $in: ingredientNames.map(i => new RegExp(i, "i")) }
+        });
+
+        if (foundIngredients.length === 0) {
+            return res.json([]);
+        }
+
+        const ingredientIds = foundIngredients.map(ing => ing._id);
+        const recipes = await Recipe.find({
+            ingredients: { $all: ingredientIds }
+        })
             .populate("ingredients")
             .populate({ path: "notes", populate: { path: "user", select: "username" } })
             .populate({ path: "reviews", populate: { path: "user", select: "username" } });
+
         res.json(recipes);
+
     } catch (error) {
+        console.error(error);
         res.status(500).json({ message: error.message });
     }
 };
+
 
 
 export const getBookmarkedRecipes = async (req, res) => {
