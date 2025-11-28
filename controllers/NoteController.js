@@ -3,8 +3,11 @@ import Recipe from "../models/RecipeModel.js";
 
 export const getNotesForRecipe = async (req, res) => {
   try {
-    const notes = await Note.find({ recipe: req.params.recipeId })
-      .populate("user", "username");
+    const notes = await Note.find({
+      recipe: req.params.recipeId,
+      user: req.user.id
+    }).populate("user", "username");
+
     res.json(notes);
   } catch (err) {
     res.status(500).json({ error: "Server error" });
