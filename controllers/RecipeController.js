@@ -53,16 +53,18 @@ export const getRecipesByIngredients = async (req, res) => {
             return res.status(400).json({ message: "Ingredients required" });
         }
 
-        const ingredientNames = ingredients.split(",");
-        const foundIngredients = await Ingredient.find({
-            name: { $in: ingredientNames.map(i => new RegExp(i, "i")) }
+        const ingredientNames = ingredients.split(",").map(i => i.trim());
+
+        const ingredientDocs = await Ingredient.find({
+            name: { $in: ingredientNames }
         });
 
-        if (foundIngredients.length === 0) {
-            return res.json([]);
+        if (ingredientDocs.length === 0) {
+            return res.json([]); 
         }
 
-        const ingredientIds = foundIngredients.map(ing => ing._id);
+        const ingredientIds = ingredientDocs.map(i => i._id);
+
         const recipes = await Recipe.find({
             ingredients: { $all: ingredientIds }
         })
@@ -71,9 +73,7 @@ export const getRecipesByIngredients = async (req, res) => {
             .populate({ path: "reviews", populate: { path: "user", select: "username" } });
 
         res.json(recipes);
-
     } catch (error) {
-        console.error(error);
         res.status(500).json({ message: error.message });
     }
 };
