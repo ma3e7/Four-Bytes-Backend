@@ -1,6 +1,7 @@
 import express from "express";
 import {
   getAllRecipes,
+  getRecipeById,
   getRecipesByName,
   getRecipesByIngredients,
   getBookmarkedRecipes,
